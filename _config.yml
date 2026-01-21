@@ -1,0 +1,15 @@
+title: DZW0703
+e-mail: you@example.com
+description: "个人主页 — DZW0703"
+baseurl: "" # 部署在根目录时留空
+url: "https://DZW0703.github.io"
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5
+collections: {}
+
+# 禁用 Jekyll 主题自动加载（使用自定义样式）
+remote_theme: ""
+
+# 如果需要构建插件，可在 GitHub Actions 中配置
+plugins: []
