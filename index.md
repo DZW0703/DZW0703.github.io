@@ -125,7 +125,7 @@
   <!-- Publications Section -->
   <section id="publications" class="py-20 bg-gray-50">
     <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-bold mb-3">Publications</h2>
+      <h2 class="text-3xl font-bold mb-3">Publications(Now 7 papers has been Published/Accepted in total!)</h2>
       <div class="section-divider mb-8"></div>
       
       <!-- Legend -->
@@ -169,7 +169,7 @@
         <!-- CMIG -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [4] Sheng Miao, <strong>Dezhen Wang</strong>, Xiaonan Yang, et al. Dual Stream Feature Fusion 3D Network for Supraspinatus Tendon Tear Classification. <em>Computerized Medical Imaging and Graphics</em>, 2025: 102580.
+            [4] Sheng Miao, <strong>Dezhen Wang</strong>, Xiaonan Yang, et al. Dual Stream Feature Fusion 3D Network for Supraspinatus Tendon Tear Classification. <em>Computerized Medical Imaging and Graphics</em>, 2025: 102580.(Supervisor first author)
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.9, JCR Q2</span>
           </p>
@@ -192,7 +192,7 @@
         <!-- KBS -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [7] [Authors], <strong>Dezhen Wang</strong>, [Author]. [Paper Title]. <em>Knowledge-Based Systems</em>, 2025.
+            [7] Wenhao Zhao,..., <strong>Dezhen Wang</strong>, et al. MEU-Miner: Bitset-Guided Multi-Dimensional High-Utility Sequential Pattern Mining with Parallelism and Adaptive Top-k. <em>Knowledge-Based Systems</em>, 2025.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Accepted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 7.6, JCR Q1</span>
           </p>
