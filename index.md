@@ -1,117 +1,378 @@
----
-layout: default
-title: 首页
-permalink: /
----
-
-<section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-text">
-      <h1>你好，我是 <span>DZW0703</span></h1>
-      <p class="lead">研究方向：多模态大模型 · 计算机视觉 · 医学图像分析 · 深度学习</p>
-      <p class="cta">
-        <a class="btn" href="/files/王德震--个人简历.pdf" download>下载简历</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dezhen Wang (王德震) - Academic Homepage</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .publication-item {
+      border-left: 3px solid #667eea;
+      transition: all 0.3s ease;
+    }
+    .publication-item:hover {
+      border-left-color: #764ba2;
+      background: rgba(102, 126, 234, 0.05);
+    }
+    .skill-tag {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .section-divider {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="font-bold text-xl gradient-text">DZW0703</a>
+      <div class="hidden md:flex space-x-8">
+        <a href="#about" class="text-gray-600 hover:text-gray-900 transition">About</a>
+        <a href="#publications" class="text-gray-600 hover:text-gray-900 transition">Publications</a>
+        <a href="#education" class="text-gray-600 hover:text-gray-900 transition">Education</a>
+        <a href="#contact" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center pt-20 bg-gradient-to-br from-white to-purple-50">
+    <div class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-purple-600 font-medium mb-2">Hello, I'm</p>
+        <h1 class="text-5xl md:text-6xl font-bold mb-4">
+          <span class="gradient-text">Dezhen Wang</span>
+        </h1>
+        <p class="text-2xl text-gray-600 mb-2">王德震</p>
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+          <strong>Research Interests:</strong> Multimodal Large Language Models · Computer Vision · Medical Image Analysis · Deep Learning
+        </p>
+        <div class="flex flex-wrap gap-4 mb-8">
+          <a href="/files/CV_Dezhen_Wang.pdf" download class="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-medium hover:shadow-lg transition transform hover:-translate-y-0.5">
+            Download CV
+          </a>
+          <a href="https://github.com/DZW0703" target="_blank" class="px-6 py-3 border-2 border-gray-300 rounded-lg font-medium hover:border-purple-600 hover:text-purple-600 transition">
+            GitHub
+          </a>
+        </div>
+        <div class="flex items-center space-x-6 text-gray-500">
+          <a href="https://scholar.google.com/" target="_blank" class="hover:text-purple-600 transition">Google Scholar</a>
+          <span>·</span>
+          <a href="https://twitter.com/" target="_blank" class="hover:text-purple-600 transition">Twitter</a>
+          <span>·</span>
+          <a href="https://linkedin.com/" target="_blank" class="hover:text-purple-600 transition">LinkedIn</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-xl p-8">
+        <div class="flex justify-center mb-6">
+          <div class="w-40 h-40 rounded-full bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center text-white text-4xl font-bold">
+            DW
+          </div>
+        </div>
+        <ul class="space-y-4">
+          <li class="flex justify-between items-center py-3 border-b border-gray-100">
+            <span class="text-gray-500 font-medium">Location</span>
+            <span class="text-gray-800">Qingdao, China</span>
+          </li>
+          <li class="flex justify-between items-center py-3 border-b border-gray-100">
+            <span class="text-gray-500 font-medium">Position</span>
+            <span class="text-gray-800">M.S. Student</span>
+          </li>
+          <li class="flex justify-between items-center py-3">
+            <span class="text-gray-500 font-medium">Email</span>
+            <a href="mailto:dezhenwang0703@163.com" class="text-purple-600 hover:underline">dezhenwang0703@163.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-3">About Me</h2>
+      <div class="section-divider mb-8"></div>
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        I am Dezhen Wang (王德震), a Master's student focusing on <strong>Multimodal Large Language Models</strong> and <strong>Computer Vision</strong>. 
+        My research explores the intersection of medical image analysis and deep learning, with applications in bioinformatics and healthcare.
+        My work spans image segmentation, image reconstruction, cross-modal representation learning, and fine-tuning of large-scale models.
       </p>
-      <p class="socials">
-        <a href="https://github.com/DZW0703" target="_blank" rel="noopener">GitHub</a> ·
-        <a href="#" target="_blank" rel="noopener">Twitter</a> ·
-        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        <strong>Current Research Interests:</strong> Multimodal LLMs, LLM Reasoning, Computer Vision, Weakly/Self-supervised Learning, and Explainable AI.
       </p>
+      <div class="flex flex-wrap gap-3">
+        <span class="skill-tag px-4 py-2 text-white rounded-full text-sm font-medium">Multimodal LLMs</span>
+        <span class="skill-tag px-4 py-2 text-white rounded-full text-sm font-medium">Computer Vision</span>
+        <span class="skill-tag px-4 py-2 text-white rounded-full text-sm font-medium">Medical Image Analysis</span>
+        <span class="skill-tag px-4 py-2 text-white rounded-full text-sm font-medium">Deep Learning</span>
+        <span class="skill-tag px-4 py-2 text-white rounded-full text-sm font-medium">PyTorch / TensorFlow</span>
+      </div>
     </div>
-    <div class="hero-card">
-      <!-- 留出头像占位，上传后替换 /assets/images/avatar.png -->
-      <img src="/assets/images/avatar.png" alt="头像占位" class="avatar" />
-      <ul class="meta-list">
-        <li><strong>位置</strong><span>青岛, 中国</span></li>
-        <li><strong>职位</strong><span>硕士研究生</span></li>
-        <li><strong>邮箱</strong><span><a href="mailto:dezhenwang0703@163.com">dezhenwang0703@163.com</a></span></li>
-      </ul>
+  </section>
+  <!-- Publications Section -->
+  <section id="publications" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-3">Publications</h2>
+      <div class="section-divider mb-8"></div>
+      
+      <!-- Legend -->
+      <div class="mb-8 p-4 bg-white rounded-lg border border-gray-200 text-sm text-gray-600">
+        <span class="inline-block px-2 py-1 bg-green-100 text-green-700 rounded mr-3">Published</span>
+        <span class="inline-block px-2 py-1 bg-yellow-100 text-yellow-700 rounded mr-3">Under Review</span>
+        <span class="inline-block px-2 py-1 bg-blue-100 text-blue-700 rounded">Submitted</span>
+        <span class="ml-4">† Equal contribution | * Corresponding author</span>
+      </div>
+      <!-- Published Papers -->
+      <h3 class="text-xl font-semibold mb-4 flex items-center">
+        <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
+        Published Papers
+      </h3>
+      <div class="space-y-4 mb-10">
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [1] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - BSPC Paper]." 
+            <em>Biomedical Signal Processing and Control</em> (BSPC), vol. XX, no. X, pp. XXX-XXX, 2024.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 4.9, JCR Q2</span>
+          </p>
+          <div class="mt-2 text-sm">
+            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
+            <a href="#" class="text-purple-600 hover:underline mr-4">[Code]</a>
+          </div>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [2] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - JCDE Paper]." 
+            <em>Journal of Computational Design and Engineering</em> (JCDE), vol. XX, no. X, pp. XXX-XXX, 2024.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 6.1, JCR Q2</span>
+          </p>
+          <div class="mt-2 text-sm">
+            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
+            <a href="#" class="text-purple-600 hover:underline mr-4">[Code]</a>
+          </div>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [3] [Advisor Name], <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - CMIG Paper]." 
+            <em>Computerized Medical Imaging and Graphics</em> (CMIG), vol. XX, no. X, pp. XXX-XXX, 2024.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 4.9, JCR Q2</span>
+          </p>
+          <div class="mt-2 text-sm">
+            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
+          </div>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [4] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - CUTECSA Paper]." 
+            In <em>Proceedings of CUTECSA 2023</em>, pp. XXX-XXX, 2023.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">EI Indexed</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [5] [First Author], [Second Author], [Third Author], <strong>Dezhen Wang</strong>, [Fifth Author]. "[Paper Title - KBS Paper]." 
+            <em>Knowledge-Based Systems</em> (KBS), 2025. (Accepted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 7.6, JCR Q1</span>
+          </p>
+        </div>
+      </div>
+      <!-- Under Review -->
+      <h3 class="text-xl font-semibold mb-4 flex items-center">
+        <span class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></span>
+        Under Review
+      </h3>
+      <div class="space-y-4 mb-10">
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [6] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
+            <em>IEEE International Conference on Acoustics, Speech and Signal Processing</em> (ICASSP), 2026. (2nd Round Review)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">CCF-B</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [7] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
+            <em>Medical Image Analysis</em> (MIA), 2025. (Under Review, Extended from AAAI 2026)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">JCR Q1 Top</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [8] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
+            <em>Medical Image Analysis</em> (MIA), 2025. (Under Review)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">JCR Q1 Top</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [9] [First Author], <strong>Dezhen Wang</strong><sup>†</sup>, et al. "[Paper Title]." 
+            <em>Radiology: Imaging Cancer</em>, 2025. (Under Review)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">IF: 6.3, JCR Q1 Top</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [10] [First Author], <strong>Dezhen Wang</strong><sup>†</sup>, et al. "[Paper Title]." 
+            <em>European Radiology</em>, 2025. (Under Review)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">IF: 4.7</span>
+          </p>
+        </div>
+      </div>
+      <!-- Submitted -->
+      <h3 class="text-xl font-semibold mb-4 flex items-center">
+        <span class="w-3 h-3 bg-blue-500 rounded-full mr-3"></span>
+        Submitted / In Preparation
+      </h3>
+      <div class="space-y-4 mb-10">
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [11] [First Author], <strong>Dezhen Wang</strong>*, et al. "[Paper Title]." 
+            <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025. (Submitted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">JCR Q1 Top</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [12] [Authors including] <strong>Dezhen Wang</strong>, et al. 
+            <em>ICME 2026</em>. (Submitted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-B</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [13] [Authors including] <strong>Dezhen Wang</strong>, et al. 
+            <em>ICME 2026</em>. (Submitted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-B</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [14] [Authors including] <strong>Dezhen Wang</strong>, et al. 
+            <em>IJCAI 2026</em>. (Submitted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-A</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [15] [Authors including] <strong>Dezhen Wang</strong>, et al. 
+            <em>ICML 2026</em>. (Submitted)
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-A</span>
+          </p>
+        </div>
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [16] <strong>Dezhen Wang</strong>, et al. "[Interdisciplinary research on Deep Learning and Bioinformatics]." 
+            Target: <em>Nature Communications</em> or related journal. (In Preparation)
+          </p>
+        </div>
+      </div>
+      <!-- Awards -->
+      <h3 class="text-xl font-semibold mb-4 flex items-center">
+        <span class="w-3 h-3 bg-purple-500 rounded-full mr-3"></span>
+        Honors & Awards
+      </h3>
+      <div class="bg-white rounded-lg p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start">
+            <span class="text-purple-600 mr-3">🏆</span>
+            <span><strong>National Scholarship for Graduate Students</strong>, Ministry of Education of China, 2025</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-purple-600 mr-3">🥈</span>
+            <span><strong>Second Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2024</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-purple-600 mr-3">🥉</span>
+            <span><strong>Third Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2023</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-purple-600 mr-3">🥉</span>
+            <span><strong>Third Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2025</span>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
-
-<section id="about" class="section">
-  <div class="container">
-    <h2>关于我</h2>
-    <p>
-      我是王德震，主要从事多模态大模型和计算机视觉方向的研究，关注医学图像分析和深度学习在医学与生物信息学中的交叉应用。
-      我的工作涵盖图像分割、图像重建、跨模态表征学习与大规模模型的微调与适配。当前研究兴趣包括：
-      多模态大模型、大模型推理、计算机视觉、弱监督/自监督学习与可解释性研究。
-    </p>
-    <div class="skills">
-      <span class="skill">多模态大模型</span>
-      <span class="skill">计算机视觉</span>
-      <span class="skill">医学图像分析</span>
-      <span class="skill">深度学习</span>
-      <span class="skill">PyTorch / TensorFlow</span>
+  </section>
+  <!-- Education Section -->
+  <section id="education" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-3">Education</h2>
+      <div class="section-divider mb-8"></div>
+      <div class="space-y-6">
+        <div class="flex items-start space-x-4">
+          <div class="w-4 h-4 mt-1.5 rounded-full bg-purple-600"></div>
+          <div>
+            <h3 class="font-semibold text-lg">M.S. in [Your Major]</h3>
+            <p class="text-gray-600">[University Name], Qingdao, China</p>
+            <p class="text-gray-500 text-sm">20XX – Present</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4">
+          <div class="w-4 h-4 mt-1.5 rounded-full bg-gray-400"></div>
+          <div>
+            <h3 class="font-semibold text-lg">B.S. in [Your Major]</h3>
+            <p class="text-gray-600">[University Name], China</p>
+            <p class="text-gray-500 text-sm">20XX – 20XX</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-
-<section id="research" class="section alt">
-  <div class="container">
-    <h2>科研成果</h2>
-    <p>以下为我的论文与投稿状态：</p>
-
-    <h3>作为第一作者 / 通讯作者 / 导师第一作（学生第二作）</h3>
-    <ol class="research-list">
-      <li><strong>Biomedical Signal Processing and Control</strong> (BSPC, 中科院二区, IF=4.9) — 第1/7作者，已发表 ✔</li>
-      <li><strong>Journal of Computational Design and Engineering</strong> (JCDE, 中科院二区, IF=6.1) — 第1/5作者，已发表 ✔</li>
-      <li><strong>Computerized Medical Imaging and Graphics</strong> (CMIG, 中科院二区, IF=4.9) — 导师第一作者（导师1作），我为第2/8作者，已发表 ✔</li>
-      <li>CUTECSA 2023（EI 收录会议） — 第1/4作者，已发表 ✔</li>
-      <li>ICASSP 2026（CCF-B 类会议） — 第1/4作者，二审中 **</li>
-      <li><strong>Medical Image Analysis</strong> (MIA, 中科院一区, TOP 期刊) — 一审中 ** （AAAI2026 转投，AAAI 二轮分数：44778, weak reject）</li>
-      <li><strong>Medical Image Analysis</strong> (MIA, 中科院一区, TOP 期刊) — 第1/6作者，一审中 **</li>
-      <li><strong>ISPRS Journal of Photogrammetry and Remote Sensing</strong> (ISPRS, 中科院一区 TOP 期刊) — 通讯作者（2/8），已投稿 *</li>
-      <li>一篇已完成的交叉学科研究（深度学习 与 生物信息），拟投稿至 Nature 子刊（待投）</li>
-    </ol>
-
-    <h3>共同第一作者</h3>
-    <ol class="research-list">
-      <li><strong>Radiology: Imaging Cancer</strong> (TOP 中科院一区, IF=6.3) — 共同第1作者（2/7），一审中 **</li>
-      <li><strong>European Radiology</strong> (IF=4.7) — 共同第1作者（2/9），一审中 **</li>
-    </ol>
-
-    <h3>作为其他作者参与的工作</h3>
-    <ol class="research-list">
-      <li><strong>Knowledge-Based Systems</strong> (KBS, 中科院一区, IF≈7.6) — 作者排序 4/5，已录用 ✔</li>
-      <li>ICME 2026（CCF-B 类会议） — 作者（2/4），已投出 **</li>
-      <li>ICME 2026（CCF-B 类会议） — 作者（2/3），已投出 **</li>
-      <li>IJCAI 2026（CCF-A 类会议） — 作者（2/3），已投出 **</li>
-      <li>ICML 2026（CCF-A 类会议） — 作者（7/9），已投出 **</li>
-    </ol>
-
-    <h3>荣誉与奖项</h3>
-    <ul class="research-list">
-      <li>2025 硕士研究生国家奖学金 ✔</li>
-      <li>2024 全国大学生数学建模竞赛国家二等奖 ✔</li>
-      <li>2023 全国大学生数学建模竞赛国家三等奖 ✔</li>
-      <li>2025 全国大学生数学建模竞赛国家三等奖 ✔</li>
-    </ul>
-
-    <p class="muted">注：标注 “✔” 表示已发表或已录用；带 “**” 的条目表示正在审稿中；带 “*” 的条目为已投稿状态。</p>
-  </div>
-</section>
-
-<section id="education" class="section">
-  <div class="container">
-    <h2>教育背景</h2>
-    <ul>
-      <li>硕士研究生 — 学校名称（请替换为具体院校）</li>
-      <li>本科学位 — 学校名称（请替换）</li>
-    </ul>
-  </div>
-</section>
-
-<section id="contact" class="section alt">
-  <div class="container">
-    <h2>联系我</h2>
-    <p>如需合作或咨询，请通过邮箱联系或填写下面表单。</p>
-    <form id="contact-form" class="contact-form" action="https://formspree.io/f/你的表单ID" method="POST">
-      <label><span>姓名</span><input name="name" required /></label>
-      <label><span>邮箱</span><input name="email" type="email" required /></label>
-      <label><span>信息</span><textarea name="message" rows="5" required></textarea></label>
-      <button class="btn primary" type="submit">发送</button>
-    </form>
-  </div>
-</section>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-3">Contact</h2>
+      <div class="section-divider mb-8"></div>
+      <p class="text-gray-600 mb-8">Feel free to reach out for collaboration or any inquiries.</p>
+      <form id="contact-form" class="bg-white rounded-xl shadow-lg p-8 space-y-6" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+            <input name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+            <input name="email" type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition" />
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+          <textarea name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition resize-none"></textarea>
+        </div>
+        <button type="submit" class="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-medium hover:shadow-lg transition transform hover:-translate-y-0.5">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-gray-400 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <p>© 2025 Dezhen Wang (王德震). All rights reserved.</p>
+      <p class="text-sm mt-2">Last updated: January 2025</p>
+    </div>
+  </footer>
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
