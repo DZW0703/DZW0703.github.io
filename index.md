@@ -145,7 +145,7 @@
         <!-- BSPC -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [1] <strong>Dezhen Wang</strong>, Ronghua Chai, Qianxu Zhou, et al. Two Stages Framework Based on Foundation Model and Kolmogorov Cross-Domain Decoupled Network for Spinal Disease Analysis. <em>Biomedical Signal Processing and Control</em>, 2026, 115: 109412.
+            [1] <strong>Dezhen Wang</strong>, Rongxin Chai, Qidi Zhou, et al. Two Stages Framework Based on Foundation Model and Kolmogorov Cross-Domain Decoupled Network for Spinal Disease Analysis. <em>Biomedical Signal Processing and Control</em>, 2026, 115: 109412.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.9, JCR Q2</span>
           </p>
@@ -153,7 +153,7 @@
         <!-- JCDE -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [2] <strong>Dezhen Wang</strong>, Qianxu Zhou, Yutong Yang, et al. LMSGNet: Semantic Prior and Edge Guided Network for Robust Polyp Segmentation. <em>Journal of Computational Design and Engineering</em>, 2026: qwag001.
+            [2] <strong>Dezhen Wang</strong>, Qidi Zhou, Yi Yang, et al. LMSGNet: Semantic Prior and Edge Guided Network for Robust Polyp Segmentation. <em>Journal of Computational Design and Engineering</em>, 2026: qwag001.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 6.1, JCR Q2</span>
           </p>
@@ -161,7 +161,7 @@
         <!-- ICASSP 2026 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [3] <strong>Dezhen Wang</strong>, Haotian Zhao, Xinhao Shen, et al. SFGNet: Semantic and Frequency Guided Network for Camouflaged Object Detection. In <em>Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2026.
+            [3] <strong>Dezhen Wang</strong>, Haixiang Zhao, Xiang Shen, Sheng Miao. SFGNet: Semantic and Frequency Guided Network for Camouflaged Object Detection. In <em>Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Accepted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
           </p>
@@ -169,7 +169,7 @@
         <!-- CMIG -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [4] Shaohua Miao, <strong>Dezhen Wang</strong>, Xuan Yang, et al. Dual Stream Feature Fusion 3D Network for Supraspinatus Tendon Tear Classification. <em>Computerized Medical Imaging and Graphics</em>, 2025: 102580.
+            [4] Sheng Miao, <strong>Dezhen Wang</strong>, Xiaonan Yang, et al. Dual Stream Feature Fusion 3D Network for Supraspinatus Tendon Tear Classification. <em>Computerized Medical Imaging and Graphics</em>, 2025: 102580.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.9, JCR Q2</span>
           </p>
@@ -177,7 +177,7 @@
         <!-- IEEE Access -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [5] Shaohua Miao, Zheng Liu, <strong>Dezhen Wang</strong>, et al. Applying Hybrid Deep Learning Models to Assess Upper Limb Rehabilitation. <em>IEEE Access</em>, 2024.
+            [5] Sheng Miao, Zitong Liu, <strong>Dezhen Wang</strong>, Xiang Shen, Nana Shen. Applying Hybrid Deep Learning Models to Assess Upper Limb Rehabilitation. <em>IEEE Access</em>, 2024.
             <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
           </p>
         </div>
@@ -224,7 +224,7 @@
         <!-- European Radiology -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [10] [First Author]<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, et al. A Multimodal Cross-Temporal Fusion System Supporting Decision-Making in the Whole Process of Neoadjuvant Chemotherapy for Breast Cancer. <em>European Radiology</em>, 2025.
+            [10] Xinyi Sun<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, Qidi Zhou et al. A Multimodal Cross-Temporal Fusion System Supporting Decision-Making in the Whole Process of Neoadjuvant Chemotherapy for Breast Cancer. <em>European Radiology</em>, 2025.
             <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.7</span>
           </p>
@@ -232,7 +232,7 @@
         <!-- Radiology: Imaging Cancer -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [11] [First Author]<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, et al. [Paper Title]. <em>Radiology: Imaging Cancer</em>, 2025.
+            [11] Rongxin Chai<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, et al. Paper title is not available now. <em>Radiology: Imaging Cancer</em>, 2025.
             <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 6.3, JCR Q1 Top</span>
           </p>
@@ -247,7 +247,7 @@
         <!-- ICME #1 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [12] [First Author], <strong>Dezhen Wang</strong>, et al. PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
+            [12] Chenyang Xu, <strong>Dezhen Wang</strong>, et al. Paper title is not available now. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
           </p>
@@ -255,7 +255,7 @@
         <!-- ICME #2 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [13] [First Author], <strong>Dezhen Wang</strong>, [Co-author]. [Paper Title]. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
+            [13] Chenyang Xu, <strong>Dezhen Wang</strong>, [Co-author]. Paper title is not available now. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
           </p>
@@ -263,7 +263,7 @@
         <!-- ISPRS -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [14] [First Author], <strong>Dezhen Wang</strong>*, et al. [Paper Title]. <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025.
+            [14] Zishun Song,..., <strong>Dezhen Wang</strong>*. Paper title is not available now. <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">JCR Q1 Top</span>
           </p>
@@ -271,7 +271,7 @@
         <!-- IJCAI -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [15] [First Author], <strong>Dezhen Wang</strong>, [Co-author]. [Paper Title]. <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2026.
+            [15] Chenyang Xu, <strong>Dezhen Wang</strong>, et al. Paper title is not available now. <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-A</span>
           </p>
@@ -279,7 +279,7 @@
         <!-- ICML -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [16] [Authors including] <strong>Dezhen Wang</strong>, et al. [Paper Title]. <em>International Conference on Machine Learning (ICML)</em>, 2026.
+            [16] Jiawei Zhao,..., <strong>Dezhen Wang</strong>, et al. Paper title is not available now. <em>International Conference on Machine Learning (ICML)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
             <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-A</span>
           </p>
@@ -287,7 +287,7 @@
         <!-- Nature -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [17] <strong>Dezhen Wang</strong>, et al. [Interdisciplinary Research: Deep Learning × Bioinformatics]. Target: <em>Nature Communications</em> or related journal.
+            [17] <strong>Dezhen Wang</strong>, et al. Paper title is not available now. <em>Nature Computational Science (NATCOMPUTSCI)</em>, 2026.
             <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">In Preparation</span>
           </p>
         </div>
