@@ -23,7 +23,7 @@ permalink: /
       <img src="/assets/images/avatar.png" alt="头像占位" class="avatar" />
       <ul class="meta-list">
         <li><strong>位置</strong><span>青岛, 中国</span></li>
-        <li><strong>职位</strong><span>硕士研究生 / 研究员</span></li>
+        <li><strong>职位</strong><span>硕士研究生</span></li>
         <li><strong>邮箱</strong><span><a href="mailto:dezhenwang0703@163.com">dezhenwang0703@163.com</a></span></li>
       </ul>
     </div>
