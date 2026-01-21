@@ -51,7 +51,7 @@ permalink: /
 <section id="research" class="section alt">
   <div class="container">
     <h2>科研成果</h2>
-    <p>以下为我的论文与投稿状态（按你提供的信息列出，期刊名为完整全称）：</p>
+    <p>以下为我的论文与投稿状态：</p>
 
     <h3>作为第一作者 / 通讯作者 / 导师第一作（学生第二作）</h3>
     <ol class="research-list">
