@@ -38,10 +38,11 @@
   <!-- Navigation -->
   <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="font-bold text-xl gradient-text">DZW0703</a>
+      <a href="#" class="font-bold text-xl gradient-text">Dezhen Wang</a>
       <div class="hidden md:flex space-x-8">
         <a href="#about" class="text-gray-600 hover:text-gray-900 transition">About</a>
         <a href="#publications" class="text-gray-600 hover:text-gray-900 transition">Publications</a>
+        <a href="#awards" class="text-gray-600 hover:text-gray-900 transition">Awards</a>
         <a href="#education" class="text-gray-600 hover:text-gray-900 transition">Education</a>
         <a href="#contact" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
       </div>
@@ -60,7 +61,7 @@
           <strong>Research Interests:</strong> Multimodal Large Language Models · Computer Vision · Medical Image Analysis · Deep Learning
         </p>
         <div class="flex flex-wrap gap-4 mb-8">
-          <a href="/files/CV_Dezhen_Wang.pdf" download class="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-medium hover:shadow-lg transition transform hover:-translate-y-0.5">
+          <a href="/files/王德震--个人简历.pdf" download class="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-medium hover:shadow-lg transition transform hover:-translate-y-0.5">
             Download CV
           </a>
           <a href="https://github.com/DZW0703" target="_blank" class="px-6 py-3 border-2 border-gray-300 rounded-lg font-medium hover:border-purple-600 hover:text-purple-600 transition">
@@ -77,7 +78,8 @@
       </div>
       <div class="bg-white rounded-2xl shadow-xl p-8">
         <div class="flex justify-center mb-6">
-          <div class="w-40 h-40 rounded-full bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center text-white text-4xl font-bold">
+          <img src="/assets/images/avatar.png" alt="Dezhen Wang" class="w-40 h-40 rounded-full object-cover border-4 border-purple-100" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="w-40 h-40 rounded-full bg-gradient-to-br from-purple-400 to-indigo-500 items-center justify-center text-white text-4xl font-bold hidden">
             DW
           </div>
         </div>
@@ -103,12 +105,12 @@
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-3xl font-bold mb-3">About Me</h2>
       <div class="section-divider mb-8"></div>
-      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+      <p class="text-lg text-gray-600 leading-relaxed mb-6">
         I am Dezhen Wang (王德震), a Master's student focusing on <strong>Multimodal Large Language Models</strong> and <strong>Computer Vision</strong>. 
         My research explores the intersection of medical image analysis and deep learning, with applications in bioinformatics and healthcare.
-        My work spans image segmentation, image reconstruction, cross-modal representation learning, and fine-tuning of large-scale models.
       </p>
       <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        My work spans image segmentation, image reconstruction, cross-modal representation learning, and fine-tuning of large-scale models.
         <strong>Current Research Interests:</strong> Multimodal LLMs, LLM Reasoning, Computer Vision, Weakly/Self-supervised Learning, and Explainable AI.
       </p>
       <div class="flex flex-wrap gap-3">
@@ -128,183 +130,209 @@
       
       <!-- Legend -->
       <div class="mb-8 p-4 bg-white rounded-lg border border-gray-200 text-sm text-gray-600">
-        <span class="inline-block px-2 py-1 bg-green-100 text-green-700 rounded mr-3">Published</span>
+        <span class="inline-block px-2 py-1 bg-green-100 text-green-700 rounded mr-3">Published / Accepted</span>
         <span class="inline-block px-2 py-1 bg-yellow-100 text-yellow-700 rounded mr-3">Under Review</span>
         <span class="inline-block px-2 py-1 bg-blue-100 text-blue-700 rounded">Submitted</span>
-        <span class="ml-4">† Equal contribution | * Corresponding author</span>
+        <span class="block mt-2 text-xs">† Equal contribution &nbsp;|&nbsp; * Corresponding author</span>
       </div>
-      <!-- Published Papers -->
+      <!-- ===================== PUBLISHED ===================== -->
       <h3 class="text-xl font-semibold mb-4 flex items-center">
         <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
-        Published Papers
+        Published / Accepted
       </h3>
       <div class="space-y-4 mb-10">
+        
+        <!-- BSPC -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [1] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - BSPC Paper]." 
-            <em>Biomedical Signal Processing and Control</em> (BSPC), vol. XX, no. X, pp. XXX-XXX, 2024.
-            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 4.9, JCR Q2</span>
-          </p>
-          <div class="mt-2 text-sm">
-            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
-            <a href="#" class="text-purple-600 hover:underline mr-4">[Code]</a>
-          </div>
-        </div>
-        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
-          <p class="text-gray-800 leading-relaxed">
-            [2] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - JCDE Paper]." 
-            <em>Journal of Computational Design and Engineering</em> (JCDE), vol. XX, no. X, pp. XXX-XXX, 2024.
-            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 6.1, JCR Q2</span>
-          </p>
-          <div class="mt-2 text-sm">
-            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
-            <a href="#" class="text-purple-600 hover:underline mr-4">[Code]</a>
-          </div>
-        </div>
-        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
-          <p class="text-gray-800 leading-relaxed">
-            [3] [Advisor Name], <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - CMIG Paper]." 
-            <em>Computerized Medical Imaging and Graphics</em> (CMIG), vol. XX, no. X, pp. XXX-XXX, 2024.
-            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 4.9, JCR Q2</span>
-          </p>
-          <div class="mt-2 text-sm">
-            <a href="#" class="text-purple-600 hover:underline mr-4">[Paper]</a>
-          </div>
-        </div>
-        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
-          <p class="text-gray-800 leading-relaxed">
-            [4] <strong>Dezhen Wang</strong>, [Co-authors]. "[Paper Title - CUTECSA Paper]." 
-            In <em>Proceedings of CUTECSA 2023</em>, pp. XXX-XXX, 2023.
-            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">EI Indexed</span>
+            [1] <strong>Dezhen Wang</strong>, Ronghua Chai, Qianxu Zhou, et al. Two Stages Framework Based on Foundation Model and Kolmogorov Cross-Domain Decoupled Network for Spinal Disease Analysis. <em>Biomedical Signal Processing and Control</em>, 2026, 115: 109412.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.9, JCR Q2</span>
           </p>
         </div>
+        <!-- JCDE -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [5] [First Author], [Second Author], [Third Author], <strong>Dezhen Wang</strong>, [Fifth Author]. "[Paper Title - KBS Paper]." 
-            <em>Knowledge-Based Systems</em> (KBS), 2025. (Accepted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">IF: 7.6, JCR Q1</span>
+            [2] <strong>Dezhen Wang</strong>, Qianxu Zhou, Yutong Yang, et al. LMSGNet: Semantic Prior and Edge Guided Network for Robust Polyp Segmentation. <em>Journal of Computational Design and Engineering</em>, 2026: qwag001.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 6.1, JCR Q2</span>
+          </p>
+        </div>
+        <!-- ICASSP 2026 -->
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [3] <strong>Dezhen Wang</strong>, Haotian Zhao, Xinhao Shen, et al. SFGNet: Semantic and Frequency Guided Network for Camouflaged Object Detection. In <em>Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2026.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Accepted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
+          </p>
+        </div>
+        <!-- CMIG -->
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [4] Shaohua Miao, <strong>Dezhen Wang</strong>, Xuan Yang, et al. Dual Stream Feature Fusion 3D Network for Supraspinatus Tendon Tear Classification. <em>Computerized Medical Imaging and Graphics</em>, 2025: 102580.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.9, JCR Q2</span>
+          </p>
+        </div>
+        <!-- IEEE Access -->
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [5] Shaohua Miao, Zheng Liu, <strong>Dezhen Wang</strong>, et al. Applying Hybrid Deep Learning Models to Assess Upper Limb Rehabilitation. <em>IEEE Access</em>, 2024.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
+          </p>
+        </div>
+        <!-- CUTECSA 2023 -->
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [6] <strong>Dezhen Wang</strong>, Ying Wang, Yuxiang Wang, et al. Extracting Key Words from Picture Books to Reveal Attractive Topics Based on Text Mining Technology. In <em>Proc. International Conference on Computer Science and its Applications and the International Conference on Ubiquitous Information Technologies and Applications (CUTECSA)</em>, 2023: 280-285.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Published</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">EI Indexed</span>
+          </p>
+        </div>
+        <!-- KBS -->
+        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
+          <p class="text-gray-800 leading-relaxed">
+            [7] [Authors], <strong>Dezhen Wang</strong>, [Author]. [Paper Title]. <em>Knowledge-Based Systems</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Accepted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 7.6, JCR Q1</span>
           </p>
         </div>
       </div>
-      <!-- Under Review -->
+      <!-- ===================== UNDER REVIEW ===================== -->
       <h3 class="text-xl font-semibold mb-4 flex items-center">
         <span class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></span>
         Under Review
       </h3>
       <div class="space-y-4 mb-10">
+        <!-- MIA #1 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [6] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
-            <em>IEEE International Conference on Acoustics, Speech and Signal Processing</em> (ICASSP), 2026. (2nd Round Review)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">CCF-B</span>
+            [8] <strong>Dezhen Wang</strong>, et al. DeSamba: Spectral Adaptive and Decoupled Representation Learning for 3D Multi-Sequence MRI Lesion Classification. <em>Medical Image Analysis</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 11.8, JCR Q1 Top</span>
+            <br><span class="text-xs text-gray-500 mt-1">(Extended from AAAI 2026 submission)</span>
           </p>
         </div>
+        <!-- MIA #2 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [7] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
-            <em>Medical Image Analysis</em> (MIA), 2025. (Under Review, Extended from AAAI 2026)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">JCR Q1 Top</span>
+            [9] <strong>Dezhen Wang</strong>, et al. ConxFuse: Cross-Modal Fusion Attention and Contrastive Learning Framework for Breast Cancer Analysis. <em>Medical Image Analysis</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 11.8, JCR Q1 Top</span>
           </p>
         </div>
+        <!-- European Radiology -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [8] <strong>Dezhen Wang</strong>, et al. "[Paper Title]." 
-            <em>Medical Image Analysis</em> (MIA), 2025. (Under Review)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">JCR Q1 Top</span>
+            [10] [First Author]<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, et al. A Multimodal Cross-Temporal Fusion System Supporting Decision-Making in the Whole Process of Neoadjuvant Chemotherapy for Breast Cancer. <em>European Radiology</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 4.7</span>
           </p>
         </div>
+        <!-- Radiology: Imaging Cancer -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [9] [First Author], <strong>Dezhen Wang</strong><sup>†</sup>, et al. "[Paper Title]." 
-            <em>Radiology: Imaging Cancer</em>, 2025. (Under Review)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">IF: 6.3, JCR Q1 Top</span>
-          </p>
-        </div>
-        <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
-          <p class="text-gray-800 leading-relaxed">
-            [10] [First Author], <strong>Dezhen Wang</strong><sup>†</sup>, et al. "[Paper Title]." 
-            <em>European Radiology</em>, 2025. (Under Review)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">IF: 4.7</span>
+            [11] [First Author]<sup>†</sup>, <strong>Dezhen Wang</strong><sup>†</sup>, et al. [Paper Title]. <em>Radiology: Imaging Cancer</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs rounded">Under Review</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">IF: 6.3, JCR Q1 Top</span>
           </p>
         </div>
       </div>
-      <!-- Submitted -->
+      <!-- ===================== SUBMITTED ===================== -->
       <h3 class="text-xl font-semibold mb-4 flex items-center">
         <span class="w-3 h-3 bg-blue-500 rounded-full mr-3"></span>
         Submitted / In Preparation
       </h3>
       <div class="space-y-4 mb-10">
+        <!-- ICME #1 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [11] [First Author], <strong>Dezhen Wang</strong>*, et al. "[Paper Title]." 
-            <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025. (Submitted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">JCR Q1 Top</span>
+            [12] [First Author], <strong>Dezhen Wang</strong>, et al. PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
           </p>
         </div>
+        <!-- ICME #2 -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [12] [Authors including] <strong>Dezhen Wang</strong>, et al. 
-            <em>ICME 2026</em>. (Submitted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-B</span>
+            [13] [First Author], <strong>Dezhen Wang</strong>, [Co-author]. [Paper Title]. <em>IEEE International Conference on Multimedia and Expo (ICME)</em>, 2026.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-B</span>
           </p>
         </div>
+        <!-- ISPRS -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [13] [Authors including] <strong>Dezhen Wang</strong>, et al. 
-            <em>ICME 2026</em>. (Submitted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-B</span>
+            [14] [First Author], <strong>Dezhen Wang</strong>*, et al. [Paper Title]. <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">JCR Q1 Top</span>
           </p>
         </div>
+        <!-- IJCAI -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [14] [Authors including] <strong>Dezhen Wang</strong>, et al. 
-            <em>IJCAI 2026</em>. (Submitted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-A</span>
+            [15] [First Author], <strong>Dezhen Wang</strong>, [Co-author]. [Paper Title]. <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2026.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-A</span>
           </p>
         </div>
+        <!-- ICML -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [15] [Authors including] <strong>Dezhen Wang</strong>, et al. 
-            <em>ICML 2026</em>. (Submitted)
-            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">CCF-A</span>
+            [16] [Authors including] <strong>Dezhen Wang</strong>, et al. [Paper Title]. <em>International Conference on Machine Learning (ICML)</em>, 2026.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">Submitted</span>
+            <span class="inline-block ml-1 px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">CCF-A</span>
           </p>
         </div>
+        <!-- Nature -->
         <div class="publication-item bg-white p-5 rounded-r-lg pl-6">
           <p class="text-gray-800 leading-relaxed">
-            [16] <strong>Dezhen Wang</strong>, et al. "[Interdisciplinary research on Deep Learning and Bioinformatics]." 
-            Target: <em>Nature Communications</em> or related journal. (In Preparation)
+            [17] <strong>Dezhen Wang</strong>, et al. [Interdisciplinary Research: Deep Learning × Bioinformatics]. Target: <em>Nature Communications</em> or related journal.
+            <span class="inline-block ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded">In Preparation</span>
           </p>
         </div>
       </div>
-      <!-- Awards -->
-      <h3 class="text-xl font-semibold mb-4 flex items-center">
-        <span class="w-3 h-3 bg-purple-500 rounded-full mr-3"></span>
-        Honors & Awards
-      </h3>
-      <div class="bg-white rounded-lg p-6">
-        <ul class="space-y-3">
-          <li class="flex items-start">
-            <span class="text-purple-600 mr-3">🏆</span>
-            <span><strong>National Scholarship for Graduate Students</strong>, Ministry of Education of China, 2025</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-purple-600 mr-3">🥈</span>
-            <span><strong>Second Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2024</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-purple-600 mr-3">🥉</span>
-            <span><strong>Third Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2023</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-purple-600 mr-3">🥉</span>
-            <span><strong>Third Prize</strong>, National College Students Mathematical Modeling Competition (CUMCM), 2025</span>
-          </li>
-        </ul>
+    </div>
+  </section>
+  <!-- Awards Section -->
+  <section id="awards" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-3">Honors & Awards</h2>
+      <div class="section-divider mb-8"></div>
+      <div class="space-y-4">
+        <div class="flex items-center p-4 bg-gradient-to-r from-yellow-50 to-amber-50 rounded-lg border border-yellow-200">
+          <span class="text-3xl mr-4">🏆</span>
+          <div>
+            <h3 class="font-semibold text-gray-800">National Scholarship for Graduate Students</h3>
+            <p class="text-gray-600 text-sm">Ministry of Education of China, 2025</p>
+          </div>
+        </div>
+        <div class="flex items-center p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <span class="text-3xl mr-4">🥈</span>
+          <div>
+            <h3 class="font-semibold text-gray-800">National Second Prize</h3>
+            <p class="text-gray-600 text-sm">China Undergraduate Mathematical Contest in Modeling (CUMCM), 2024</p>
+          </div>
+        </div>
+        <div class="flex items-center p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <span class="text-3xl mr-4">🥉</span>
+          <div>
+            <h3 class="font-semibold text-gray-800">National Third Prize</h3>
+            <p class="text-gray-600 text-sm">China Undergraduate Mathematical Contest in Modeling (CUMCM), 2023</p>
+          </div>
+        </div>
+        <div class="flex items-center p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <span class="text-3xl mr-4">🥉</span>
+          <div>
+            <h3 class="font-semibold text-gray-800">National Third Prize</h3>
+            <p class="text-gray-600 text-sm">China Undergraduate Mathematical Contest in Modeling (CUMCM), 2025</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!-- Education Section -->
-  <section id="education" class="py-20 bg-white">
+  <section id="education" class="py-20 bg-gray-50">
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-3xl font-bold mb-3">Education</h2>
       <div class="section-divider mb-8"></div>
@@ -329,25 +357,25 @@
     </div>
   </section>
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-gray-50">
+  <section id="contact" class="py-20 bg-white">
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-3xl font-bold mb-3">Contact</h2>
       <div class="section-divider mb-8"></div>
       <p class="text-gray-600 mb-8">Feel free to reach out for collaboration or any inquiries.</p>
-      <form id="contact-form" class="bg-white rounded-xl shadow-lg p-8 space-y-6" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contact-form" class="bg-gray-50 rounded-xl p-8 space-y-6 border border-gray-200" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <div class="grid md:grid-cols-2 gap-6">
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
-            <input name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition" />
+            <input name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition bg-white" />
           </div>
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-            <input name="email" type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition" />
+            <input name="email" type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition bg-white" />
           </div>
         </div>
         <div>
           <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
-          <textarea name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition resize-none"></textarea>
+          <textarea name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition resize-none bg-white"></textarea>
         </div>
         <button type="submit" class="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-medium hover:shadow-lg transition transform hover:-translate-y-0.5">
           Send Message
