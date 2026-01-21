@@ -8,8 +8,5 @@ permalink: /:categories/:year/:month/:day/:title/
 paginate: 5
 collections: {}
 
-# 禁用 Jekyll 主题自动加载（使用自定义样式）
-remote_theme: ""
-
 # 如果需要构建插件，可在 GitHub Actions 中配置
 plugins: []
