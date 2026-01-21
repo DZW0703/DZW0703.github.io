@@ -22,9 +22,9 @@ permalink: /
       <!-- 留出头像占位，上传后替换 /assets/images/avatar.png -->
       <img src="/assets/images/avatar.png" alt="头像占位" class="avatar" />
       <ul class="meta-list">
-        <li><strong>位置</strong><span>城市, 国家</span></li>
+        <li><strong>位置</strong><span>青岛, 中国</span></li>
         <li><strong>职位</strong><span>硕士研究生 / 研究员</span></li>
-        <li><strong>邮箱</strong><span><a href="mailto:you@example.com">you@example.com</a></span></li>
+        <li><strong>邮箱</strong><span><a href="mailto:dezhenwang0703@163.com">dezhenwang0703@163.com</a></span></li>
       </ul>
     </div>
   </div>
@@ -36,7 +36,7 @@ permalink: /
     <p>
       我是王德震，主要从事多模态大模型和计算机视觉方向的研究，关注医学图像分析和深度学习在医学与生物信息学中的交叉应用。
       我的工作涵盖图像分割、图像重建、跨模态表征学习与大规模模型的微调与适配。当前研究兴趣包括：
-      多模态感知、大模型在医学影像中的应用、弱监督/自监督学习与可解释性研究。
+      多模态大模型、大模型推理、计算机视觉、弱监督/自监督学习与可解释性研究。
     </p>
     <div class="skills">
       <span class="skill">多模态大模型</span>
@@ -78,6 +78,7 @@ permalink: /
       <li>ICME 2026（CCF-B 类会议） — 作者（2/4），已投出 **</li>
       <li>ICME 2026（CCF-B 类会议） — 作者（2/3），已投出 **</li>
       <li>IJCAI 2026（CCF-A 类会议） — 作者（2/3），已投出 **</li>
+      <li>ICML 2026（CCF-A 类会议） — 作者（7/9），已投出 **</li>
     </ol>
 
     <h3>荣誉与奖项</h3>
